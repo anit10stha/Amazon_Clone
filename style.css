@@ -276,3 +276,47 @@ ul a{
 }
 
 /* footer section ends */
+
+/* responsive */
+@media screen and (max-width: 768px){
+    .nav-address, .nav-country, .nav-signin, .nav-return{
+        display: none;
+    }
+
+    .nav-search{
+        height: 30px;
+        width: 50%;
+    }
+    .nav-cart i{
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .panel{
+        display: none;
+    }
+
+    .hero-section{
+        height: 200px;
+        width: 100%;
+    }
+    .hero-msg{
+        padding-left: 10px;
+        height: 30%;
+        width: 90%;
+    }
+
+    .shop-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box{
+        width: 100%;
+    }
+
+    .foot-panel2{
+        display: none;
+    }
+    
+}
